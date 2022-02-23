@@ -1,0 +1,236 @@
+[{
+        "name": "English",
+        "slug": "english",
+        "code": "en",
+        "icon": "🇺🇸",
+        "natives": [{
+                "name": "Matthew",
+                "country": "🇺🇸",
+                "gender": "male",
+                "langcode": "en-US"
+            },
+            {
+                "name": "Kimberly",
+                "country": "🇺🇸",
+                "gender": "female",
+                "langcode": "en-US"
+            },
+            {
+                "name": "Brian",
+                "country": "🇬🇧",
+                "gender": "male",
+                "langcode": "en-GB"
+            },
+            {
+                "name": "Emma",
+                "country": "🇬🇧",
+                "gender": "female",
+                "langcode": "en-GB"
+            },
+            {
+                "name": "Nicole",
+                "country": "🇦🇺",
+                "gender": "male",
+                "langcode": "en-AU"
+            },
+            {
+                "name": "Russell",
+                "country": "🇦🇺",
+                "gender": "female",
+                "langcode": "en-AU"
+            }
+        ]
+    },
+    {
+        "name": "Español",
+        "slug": "spanish",
+        "icon": "🇪🇸",
+        "code": "es",
+        "natives": [{
+                "name": "Lucia",
+                "country": "🇪🇸",
+                "gender": "female",
+                "langcode": "es-ES"
+            },
+            {
+                "name": "Enrique",
+                "country": "🇪🇸",
+                "gender": "male",
+                "langcode": "es-ES"
+            },
+            {
+                "name": "Conchita",
+                "country": "🇪🇸",
+                "gender": "female",
+                "langcode": "es-ES"
+            },
+            {
+                "name": "Mia",
+                "country": "🇲🇽",
+                "gender": "female",
+                "langcode": "es-MX"
+            },
+            {
+                "name": "Miguel",
+                "country": "🇺🇸",
+                "gender": "male",
+                "langcode": "es-US"
+            },
+            {
+                "name": "Lupe",
+                "country": "🇺🇸",
+                "gender": "female",
+                "langcode": "es-US"
+            }
+        ]
+    },
+    {
+        "name": "Deutsch",
+        "slug": "german",
+        "icon": "🇩🇪",
+        "code": "ge",
+        "natives": [{
+                "name": "Hans",
+                "country": "🇩🇪",
+                "gender": "male",
+                "langcode": "de-DE"
+            },
+            {
+                "name": "Vicki",
+                "country": "🇩🇪",
+                "gender": "female",
+                "langcode": "de-DE"
+            },
+            {
+                "name": "Marlene",
+                "country": "🇩🇪",
+                "gender": "female",
+                "langcode": "de-DE"
+            }
+        ]
+    },
+    {
+        "name": "Français",
+        "slug": "french",
+        "icon": "🇫🇷",
+        "code": "fr",
+        "natives": [{
+                "name": "Lea",
+                "country": "🇫🇷",
+                "gender": "female",
+                "langcode": "fr-FR"
+            },
+            {
+                "name": "Mathieu",
+                "country": "🇫🇷",
+                "gender": "male",
+                "langcode": "fr-FR"
+            },
+            {
+                "name": "Celine",
+                "country": "🇫🇷",
+                "gender": "female",
+                "langcode": "fr-FR"
+            },
+            {
+                "name": "Chantal",
+                "country": "🇨🇦",
+                "gender": "female",
+                "langcode": "fr-CA"
+            }
+        ]
+    },
+    {
+        "name": "Italiano",
+        "slug": "italian",
+        "code": "it",
+        "icon": "🇮🇹",
+        "natives": [{
+                "name": "Carla",
+                "country": "🇮🇹",
+                "gender": "female",
+                "langcode": "it-IT"
+            },
+            {
+                "name": "Giorgio",
+                "country": "🇮🇹",
+                "gender": "male",
+                "langcode": "it-IT"
+            },
+            {
+                "name": "Bianca",
+                "country": "🇮🇹",
+                "gender": "female",
+                "langcode": "it-IT"
+            }
+        ]
+    },
+    {
+        "name": "Português",
+        "slug": "portuguese",
+        "icon": "🇧🇷",
+        "code": "pt",
+        "natives": [{
+                "name": "Camila",
+                "country": "🇧🇷",
+                "gender": "female",
+                "langcode": "pt-BR"
+            },
+            {
+                "name": "Vitoria",
+                "country": "🇧🇷",
+                "gender": "female",
+                "langcode": "pt-BR"
+            },
+            {
+                "name": "Ricardo",
+                "country": "🇧🇷",
+                "gender": "male",
+                "langcode": "pt-BR"
+            },
+            {
+                "name": "Ines",
+                "country": "🇵🇹",
+                "gender": "female",
+                "langcode": "pt-PT"
+            },
+            {
+                "name": "Cristiano",
+                "country": "🇵🇹",
+                "gender": "male",
+                "langcode": "pt-PT"
+            }
+        ]
+    },
+    {
+        "name": "عربي",
+        "slug": "arabic",
+        "icon": "🇦🇪",
+        "code": "arb",
+        "natives": [{
+            "name": "Zeina",
+            "country": "🇦🇪",
+            "gender": "female",
+            "langcode": "arb"
+        }]
+    },
+    {
+        "name": "Русский",
+        "slug": "russian",
+        "icon": "🇷🇺",
+        "code": "ru",
+        "natives": [{
+                "name": "Tatyana",
+                "country": "🇷🇺",
+                "gender": "female",
+                "langcode": "ru-RU"
+            },
+            {
+                "name": "Maxim",
+                "country": "🇷🇺",
+                "gender": "male",
+                "langcode": "ru-RU"
+            }
+        ]
+    }
+]
