@@ -1,6 +1,6 @@
 from telebot.types import InlineKeyboardButton as btn
 from telebot.types import InlineKeyboardMarkup as markup
-from settings import Config as config
+from .config import Config as config
 class Keyboard:
     def __init__(self, native, language, user_lang):
         self.native = native
