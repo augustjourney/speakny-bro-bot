@@ -29,14 +29,22 @@ I choose to use a webhook. But telegram requires to always use https over http. 
 The whole process would like that
 - Initialising ngrok to get https url
 ```bash
+
 ngrok http 8000
+
 ```
-- Put that url into config.py -> Dev -> webhook_url
+
+- Put that url into config.py to `Dev` to `webhook_url`
 - And then we can launch it
+
 ```bash
+
 python3 -m venv venv
+
 . venv/bin/activate
+
 python -m src.dev
+
 ```
 
 
