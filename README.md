@@ -24,8 +24,8 @@ It even understands the question mark and natives change the intonation.
 
 ## Development process
 
-Creating a telegram bot there are 2 types to get updates.
-- Using a method — getUpdates
+Creating a telegram bot there are 2 ways to get updates.
+- Using a method `getUpdates`
 - Using a webhook
 
 I choose to use a webhook. But telegram requires to always use https over http. So it could be tricky on the local machine. And there's a service called [ngrok](https://ngrok.com/) which can help with that.
@@ -38,7 +38,7 @@ ngrok http 8000
 
 ```
 
-- Put that url into config.py to `Dev` to `webhook_url`
+- Put that url into `config.py` to `Dev/webhook_url`
 - And then we can launch it
 
 ```bash
