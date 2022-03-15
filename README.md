@@ -1,10 +1,11 @@
 # SpeaknyBro Bot
+
 This is a telegram bot that turns a word or text up to 300 characters into lifelike speech and send it back as a voice message.
 
 It doesn't translate one language to another one. For now. It just converts text to a voice message.
 
-### Why?
------------------
+## Why?
+
 This bot is useful for those who learn a foreign language. Sometimes it could be tricky to find out how to pronounce some words or phrases.
 
 So this bot can help with that.
@@ -15,14 +16,14 @@ For some languages native speakers are from different countries. For example, En
 
 And it might help to understand how a word is pronounced by people from different countries.
 
-### How does it work?
------------------
+## How does it work?
+
 It uses a service called Amazon Polly that turns text into lifelike speech with neural network. So it basically sounds real close to how people talk in real life.
 
 It even understands the question mark and natives change the intonation.
 
-### Development process
------------------
+## Development process
+
 Creating a telegram bot there are 2 types to get updates.
 - Using a method — getUpdates
 - Using a webhook
@@ -50,16 +51,15 @@ python -m src.dev
 
 ```
 
-### Languages
------------------
+## Languages
 
-| Language      | Natives                                                        |
-| ------------- | -------------------------------------------------------------- |
-| 🇺🇸 English    | 🇺🇸 Kimberly, 🇺🇸 Mathew, 🇬🇧 Brian, 🇬🇧Emma, 🇦🇺 Nicole, 🇦🇺 Russell  |
-| 🇪🇸 Español    | 🇪🇸 Lucia, 🇪🇸 Enrique, 🇪🇸 Conchita, 🇲🇽 Mia, 🇺🇸 Miguel, 🇺🇸 Lupe    |
-| 🇩🇪 Deutsch    | 🇩🇪 Hans, 🇩🇪 Vicki, 🇩🇪 Marlene                                   |
-| 🇫🇷 Français   | 🇫🇷 Lea, 🇫🇷 Celine, 🇫🇷 Mathieu, 🇨🇦 Chantal                       |
-| 🇮🇹 Italiano   | 🇮🇹 Carla, 🇮🇹 Giorgio, 🇮🇹 Bianca                                 |
-| 🇧🇷 Português  | 🇧🇷 Camila, 🇧🇷 Vitoria, 🇧🇷 Ricardo, 🇵🇹 Ines, 🇵🇹 Cristiano         |
-| 🇦🇪 عربي       | 🇦🇪 Zeina                                                        |
-| 🇷🇺 Русский    | 🇷🇺 Tatyana, 🇷🇺 Maxim                                            |
+| Language      | Natives                                                                     |
+| ------------- | --------------------------------------------------------------------------- |
+| 🇺🇸 English    | 🇺🇸 Kimberly, 🇺🇸 Mathew, 🇬🇧 Brian, 🇬🇧Emma, 🇦🇺 Nicole, 🇦🇺 Russell               |
+| 🇪🇸 Español    | 🇪🇸 Lucia, 🇪🇸 Enrique, 🇪🇸 Conchita, 🇲🇽 Mia, 🇺🇸 Miguel, 🇺🇸 Lupe                 |
+| 🇩🇪 Deutsch    | 🇩🇪 Hans, 🇩🇪 Vicki, 🇩🇪 Marlene                                                |
+| 🇫🇷 Français   | 🇫🇷 Lea, 🇫🇷 Celine, 🇫🇷 Mathieu, 🇨🇦 Chantal                                    |
+| 🇮🇹 Italiano   | 🇮🇹 Carla, 🇮🇹 Giorgio, 🇮🇹 Bianca                                              |
+| 🇧🇷 Português  | 🇧🇷 Camila, 🇧🇷 Vitoria, 🇧🇷 Ricardo, 🇵🇹 Ines, 🇵🇹 Cristiano                      |
+| 🇦🇪 عربي       | 🇦🇪 Zeina                                                                    |
+| 🇷🇺 Русский    | 🇷🇺 Tatyana, 🇷🇺 Maxim                                                         |
