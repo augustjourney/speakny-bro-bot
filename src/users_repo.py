@@ -1,6 +1,6 @@
 from fastapi_sqlalchemy import db
-
 import json
+
 class UsersRepo:
     def get_user(chat_id):
         query = """

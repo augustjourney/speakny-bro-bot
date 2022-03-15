@@ -1,12 +1,12 @@
 from fastapi import FastAPI
 from fastapi_sqlalchemy import DBSessionMiddleware
 from starlette.middleware.cors import CORSMiddleware
-from .config import Config as config
-from .router import router
-from .bot import bot
+from src.config import Config as config
+from src.router import router
+from src.bot import bot
 import time
 
-def create_bot():
+def create_app():
     app = FastAPI()
     
     app.add_middleware(DBSessionMiddleware, db_url=config.db_url)
@@ -24,5 +24,4 @@ def create_bot():
     time.sleep(5)
     bot.set_webhook(url=config.webhook_url)
     print(bot.get_webhook_info())
-
     return app

@@ -1,8 +1,8 @@
-from .config import Config as config
+from src.config import Config as config
 import telebot
-from .user import User
-from .keyboard import Keyboard
-from .speech import Speech
+from src.user import User
+from src.keyboard import Keyboard
+from src.speech import Speech
 # Initialising the bot instance
 bot = telebot.TeleBot(config.token)
 

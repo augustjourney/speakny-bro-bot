@@ -1,0 +1,25 @@
+name: Build
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: SpeaknyBro Build
+        env:
+          DOCKER_USERNAME: ${{secrets.DOCKER_USERNAME}}
+          DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
+        run: |
+          touch .env
+          echo BOT_TOKEN=${{ secrets.BOT_TOKEN }} >> ./speaknybro/.env
+          echo ENV="prod" >> ./speaknybro/.env
+          echo DB_URL=${{ secrets.DB_URL }} >> ./speaknybro/.env
+          echo AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} >> ./speaknybro/.env
+          echo AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} >> ./speaknybro/.env
+          docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+          docker build -t $DOCKER_USERNAME/speakny:speaknybro ./speaknybro
+          docker push $DOCKER_USERNAME/speakny:speaknybro

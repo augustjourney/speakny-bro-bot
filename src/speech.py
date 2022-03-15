@@ -1,8 +1,9 @@
-from .polly import Polly
-from .config import Config as config
+from src.polly import Polly
+from src.config import Config as config
 import uuid
 import requests
-from .speech_repo import SpeechRepo as _speech
+from src.speech_repo import SpeechRepo as _speech
+
 class Speech:
     def __init__(self, chat_id, text, lang, native):
         self.text = text
@@ -59,6 +60,13 @@ class Speech:
     
     # Save this speech to the database
     def create_speech(self):
+        """
+            Getting the lang by splitting
+            Because self.lang is normally like this — en-US
+            The structure — {language}-{country}
+            Here we don't need the country
+            So we just take the language, the first one out of split
+        """
         lang = self.lang.split('-')[0]
         speech = _speech.create_speech(self.text, self.native, lang, self.chat_id)
         if speech:

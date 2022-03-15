@@ -1,5 +1,5 @@
 import boto3
-from .config import Config as config
+from src.config import Config as config
 import os
 import sys
 import ffmpeg

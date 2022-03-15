@@ -1,5 +1,5 @@
-from .config import Config as config
-from .users_repo import UsersRepo as _users
+from src.config import Config as config
+from src.users_repo import UsersRepo as _users
 
 class User:
     def __init__(self, chat_id, from_user):
