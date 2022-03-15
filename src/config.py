@@ -26,7 +26,7 @@ class Base:
 class Prod(Base):
     token = os.environ.get('BOT_TOKEN')
     bot_base_url = f'https://api.telegram.org/bot{token}'
-    webhook_url = f"https://api.speakny.ru/bot/{token}/"
+    webhook_url = f"https://api.speakny.ru/bot/speaknybro/{token}/"
     origins = []
 
 class Dev(Base):
