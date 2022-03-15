@@ -5,7 +5,7 @@ from src.config import Config as config
 
 # Initialising router with prefix bot
 router = APIRouter(
-    prefix="/bot/speaknybro",
+    prefix="",
     tags=["bot"],
     responses={404: {"description": "Not found"}},
 )

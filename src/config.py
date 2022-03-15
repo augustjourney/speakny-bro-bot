@@ -33,7 +33,7 @@ class Dev(Base):
     debug = True
     token = os.environ.get('BOT_DEV_TOKEN')
     bot_base_url = f'https://api.telegram.org/bot{token}'
-    webhook_url = f"https://2c6f-185-210-142-156.ngrok.io/bot/{token}/"
+    webhook_url = f"https://2c6f-185-210-142-156.ngrok.io/{token}/"
     origins = ['http://localhost:3000']
 
 if Base.env == 'prod':
